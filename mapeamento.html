@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 23</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+ <body onmousemove="MoveBoneco(event)";>
+
+    <map name="meu_mapa">
+        <area title="Visite o Rio Grande Do Sul"  onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="260,440,20" href="https://brasilescola.uol.com.br/brasil/rio-grande-sul.htm" target="_blank">
+        <area title="Visite Santa Catarina"       onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="293,412,20" href="https://brasilescola.uol.com.br/brasil/santa-catarina.htm" target="_blank">
+        <area title="Visite o Paraná"             onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="277,377,20" href="https://mundoeducacao.uol.com.br/geografia/parana.htm" target="_blank">
+        <area title="Visite o São Paulo"          onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="311,351,20" href="https://brasilescola.uol.com.br/brasil/sao-paulo.htm" target="_blank">
+        <area title="Visite o Mato Grosso Do Sul" onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="239,322,20" href="https://mundoeducacao.uol.com.br/geografia/mato-grosso-sul-1.htm" target="_blank">
+        <area title="Visite Minas Gerais"         onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="362,306,20" href="https://brasilescola.uol.com.br/brasil/minas-gerais.htm" target="_blank">
+        <area title="Visite o Rio De Janeiro"     onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="384,352,5" href="https://mundoeducacao.uol.com.br/geografia/rio-janeiro.htm" target="_blank">
+        <area title="Visite o Espírito Santo"     onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="408,321,5" href="https://brasilescola.uol.com.br/brasil/espirito-santo.htm" target="_blank">
+        <area title="Visite Goiás"                onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="304,271,15" href="https://brasilescola.uol.com.br/brasil/goias.htm" target="_blank">
+        <area title="Distrito Federal"            onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="325,266,3" href="https://pt.wikipedia.org/wiki/Distrito_Federal" target="_blank">
+        <area title="Visite a Bahia"              onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="397,227,20" href="https://brasilescola.uol.com.br/brasil/bahia.htm" target="_blank">
+        <area title="Visite o Mato Grosso"        onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="229,233,20" href="https://brasilescola.uol.com.br/brasil/mato-grosso.htm" target="_blank">
+        <area title="Visite Tocantins"            onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="319,197,20" href="https://brasilescola.uol.com.br/brasil/tocantins.htm" target="_blank">
+        <area title="Visite Rondônia"             onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="140,207,20" href="https://mundoeducacao.uol.com.br/geografia/rondonia.htm"target="_blank">
+        <area title="Visite o Acre"               onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="38,192,10" href="https://mundoeducacao.uol.com.br/geografia/acre.htm" target="_blank">
+        <area title="Visite o Amazonas"           onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="121,121,30" href="https://mundoeducacao.uol.com.br/geografia/amazonas.htm" target="_blank">
+        <area title="Visite Roraima"              onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="160,42,20" href="https://brasilescola.uol.com.br/brasil/roraima.htm" target="_blank">
+        <area title="Visite Pará"                 onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="264,128,35" href="https://mundoeducacao.uol.com.br/geografia/para-6.htm" target="_blank">
+        <area title="Visite o Maranhão"           onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="361,128,20" href="https://brasilescola.uol.com.br/brasil/maranhao.htm" target="_blank">
+        <area title="Visite o Piauí"              onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="389,168,10" href="https://brasilescola.uol.com.br/brasil/piaui.htm" target="_blank">
+        <area title="Visite o Ceará"              onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="433,132,10" href="https://www.todamateria.com.br/estado-do-ceara/" target="_blank">
+        <area title="Visite o Rio Grande Do Norte"onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="470,146,5" href="https://mundoeducacao.uol.com.br/geografia/rio-grande-norte.htm" target="_blank">
+        <area title="Visite a Paraíba"            onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="476,165,5" href="https://mundoeducacao.uol.com.br/geografia/paraiba.htm" target="_blank">
+        <area title="Visite Pernambuco"           onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="450,180,5" href="https://brasilescola.uol.com.br/brasil/pernambuco.htm" target="_blank">
+        <area title="Visite o Alagoas"            onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="473,198,5" href="https://brasilescola.uol.com.br/brasil/alagoas.htm" target="_blank">
+        <area title="Visite o Sergipe"            onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="460,214,5" href="https://mundoeducacao.uol.com.br/geografia/sergipe.htm" target="_blank">
+        <area title="Visite o Amapá"              onmouseover="MostraDancarina();" onmouseleave="MostraOriginal();"  shape="circle" coords="277,52,10" href="https://mundoeducacao.uol.com.br/geografia/amapa.htm" target="_blank">
+    </map>
+
+    <div class="mapa" id="mapa">
+    <img src="mapa_brasil.jpg" usemap="#meu_mapa">
+    </div>
+    <img class="boneco" id="boneco" src="boneco.gif" width = "110px">
+    </div>
+</body>
+   
+    <script>
+        function MostraOriginal()
+        {
+        boneco.src = "boneco.gif";
+        }
+        function MostraDancarina()
+        {
+        boneco.src = "dancarina.gif";
+        }
+
+        function MoveBoneco(event)
+        {
+            x = event.pageX;
+            y = event.pageY;
+            boneco.style.left = (x+5) + "px";
+            boneco.style.top = (y+5) + "px";
+        }
+    </script>
+</html>
